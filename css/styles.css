@@ -99,8 +99,6 @@ ol {
   position: absolute;
 }
 
-
-
 .address {
   font-style: normal;
   margin-left: auto;
@@ -138,7 +136,13 @@ img {
 /**========================sec 1==================**/
 
 .header {
-  background-color: #2e2f42;
+  background-color:#2e2f42;
+  background-image: linear-gradient(to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0 188px;
   text-align: center;
   margin: 0 auto;
@@ -192,6 +196,20 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.features-icon {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  padding: 24px 100px 24px 100px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -204,6 +222,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 .features-title {
   font-weight: 500;
@@ -250,10 +269,6 @@ img {
   border-radius: 0 0 4px 4px;
 }
 
-.team-img {
-  
-}
-
 .align-team {
   text-align: center;
   padding: 32px 0;
@@ -273,15 +288,31 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
+}
+
+/**.team-icon {
+  display: flex;
+  padding-bottom: 32px;
+  gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+**/
+
+.team-link {
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  
 }
 
 /**======================sec 4==============**/
-
-.portfolio-title {
-}
-.portfolio-text {
-}
 
 
 .portfolio-subtitle {
@@ -300,10 +331,6 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-}
-
-.portfolio-item {
-
 }
 
 .portfolio-border {
