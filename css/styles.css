@@ -653,10 +653,21 @@ img {
   
 }
 
+
+.modal-close:hover
+.modal-close:focus {
+  fill: #fff;
+  background-color: #404bbf;
+  border: none;
+}
+
+
 .modal-close:focus .modal-close-icon {
   background-color: #404bbf;
   fill: #ffffff 
 }
+
+
 
 .modal-title {
   font-weight: 500;
