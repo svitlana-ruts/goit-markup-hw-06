@@ -784,10 +784,10 @@ img {
     fill: transparent;
 }
 
-.checkbox-label-span:checked {
-  background-color:#404bbf;
-  border: none; 
-  fill: #F4F4FD;
+input[type="checkbox"]:checked + span {
+  background-color: #404bbf;
+  border: none;
+  fill:#F4F4FD; 
 }
 
  /* .modal-icon-checkbox {
