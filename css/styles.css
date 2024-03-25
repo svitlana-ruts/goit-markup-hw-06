@@ -680,7 +680,7 @@ img {
 
 .form-container {
   margin-bottom: 8px;
-  position: relative;
+  
 }
 
 .label-text {
@@ -691,10 +691,10 @@ img {
   color: #8e8f99;
   margin-bottom: 4px;
 }
-/*
+
 .form-input-container {
   position: relative;
-} */
+} 
 
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
