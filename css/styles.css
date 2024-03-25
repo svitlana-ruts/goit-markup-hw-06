@@ -482,6 +482,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  
 }
 
 .footer-icon-menu {
@@ -509,7 +510,7 @@ img {
 
 .footer-icon {
   fill: #f4f4fd;
-  margin-left: 16px;
+  
 }
 
 .footer-icon-link:hover,
@@ -595,7 +596,7 @@ img {
 }
 
 /*============Modal=====*/
-
+/*
 .modal-overlay {
   background: rgba(46, 47, 66, 0.4);
   position: fixed;
@@ -606,7 +607,7 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+*/
 .modal {
   background-color: #fcfcfc;
   position: absolute;
@@ -789,6 +790,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 
@@ -798,8 +800,10 @@ img {
 
 .modal-checkbox-link {
   line-height: 1.33;
+  text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+  margin-left: 2px;
 }
 
 .modal-button {
