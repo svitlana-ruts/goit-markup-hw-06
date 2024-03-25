@@ -509,6 +509,7 @@ img {
 
 .footer-icon {
   fill: #f4f4fd;
+  margin-left: 16px;
 }
 
 .footer-icon-link:hover,
@@ -649,8 +650,7 @@ img {
 .modal-close:hover .modal-close-icon {
   fill: #fff;
   background-color: #404bbf;
-  border: none;
-  
+  border: none; 
 }
 
 
@@ -790,7 +790,8 @@ input[type="checkbox"]:checked + span {
   fill:#F4F4FD; 
 }
 
- /* .modal-icon-checkbox {
+
+/* .modal-icon-checkbox {
   
 }  */
 
