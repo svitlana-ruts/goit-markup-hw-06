@@ -111,12 +111,18 @@ img {
 
 .header {
   background-color: #2e2f42;
+  /* background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg); */
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/mob/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -125,6 +131,19 @@ img {
   text-align: center;
   margin: 0 auto;
   max-width: 1440px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mob2x/people-office-mob-2x.jpg);
+  }
 }
 
 .header-title {
@@ -401,21 +420,19 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
-  padding: 96px 16px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: block;
-  /* align-items: left; */
-  text-align: center;
+  align-items: left;
 }
 
-/* .footer-container {
-  /* display: flex;
-  align-items: baseline; */
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-logo-container {
-  /* margin-right: 120px; */
-  margin-bottom: 72px;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -445,15 +462,12 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  /*===*/
-  text-align: left;
 }
 
 .footer-icon-container {
   display: block;
   align-items: center;
   font-weight: 500;
-  margin-bottom: 72px;
 }
 
 .footer-icon-text {
@@ -499,10 +513,8 @@ img {
 
 .footer-button-container {
   display: block;
-  /* margin-left: auto;
-  margin-left: 80px; */
-  /* margin: 0 auto;
-  padding: 0 16px; */
+  margin-left: auto;
+  margin-left: 80px;
 }
 
 .footer-button-text {
@@ -517,11 +529,8 @@ img {
 
 .footer-button-input-form {
   display: flex;
-  /* justify-content: right;
-  gap: 24px; */
-  flex-wrap: wrap;
-  /* align-items:;
-  margin: 0 auto; */
+  justify-content: right;
+  gap: 24px;
 }
 
 /* .footer-form-label {
@@ -540,13 +549,9 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   display: flex;
-  margin-bottom: 16px;
-  margin: 0 auto;
 }
 
 .footer-button {
-  
-  /*======*/
   border-radius: 4px;
   padding: 8px 24px 8px 24px;
   min-width: 165px;
@@ -1089,6 +1094,12 @@ img {
   /*=======================header=======*/
   .header {
     padding: 112px 0 112px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tab/people-office-tab.jpg);
   }
 
   .header-title {
@@ -1096,6 +1107,19 @@ img {
     line-height: 1.07;
     max-width: 496px;
     margin-bottom: 36px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tab2x/people-office-tab-2x.jpg);
+    }
   }
 
   /*===================feature =============*/
@@ -1135,24 +1159,6 @@ img {
     height: 300px;
   }
   /*========footer=====================*/
-  .footer {
-    padding: 96px 0 96px 108px;
-    align-items: left;
-    text-align: left;
-    justify-content: left;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footer-text {
-    margin-right: 24px;
-  }
-
-  .footer-input {
-    margin-right: 24px;
-  }
 
   /*======modal=====*/
   .modal {
@@ -1162,20 +1168,14 @@ img {
   }
 }
 
+/* =======media 1158px======================================*/
+/*=================================*/
+
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-  }
-
-  /*=======================header=======*/
-  .header {
-    padding: 188px 0 188px;
-  }
-
-  .header-title {
-    margin-bottom: 48px;
   }
 
   /*=======main-header=======*/
@@ -1193,119 +1193,108 @@ img {
     line-height: 1.5;
   }
 
-  /*=====================feature ====================*/
-
-  .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  /*=======================header=====================*/
+  .header {
+    padding: 188px 0 188px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dt/img-people-office-dt.jpg);
   }
 
-  .features-menu {
-    flex-wrap: none;
-    padding: none;
-  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/dt2x/people-office-dt-2x.jpg);
+    }
 
-  .features-item {
-    width: calc((100% - 3 * 24px) / 4);
-  }
+    .header-title {
+      margin-bottom: 48px;
+    }
 
-  .features-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f4fd;
-    padding: 24px 100px 24px 100px;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    text-align: center;
-    margin-bottom: 8px;
-    height: 112px;
-  }
+    /*=====================feature ====================*/
 
-  .features-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: left;
-    letter-spacing: 0.02em;
-  }
+    .section {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
 
-  .features-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
+    .features-menu {
+      flex-wrap: none;
+      padding: none;
+    }
 
-  /*=======================team===============*/
-  .team-menu {
-    gap: 24px;
-  }
+    .features-item {
+      width: calc((100% - 3 * 24px) / 4);
+    }
 
-  .team-item {
-    width: calc((100% - 3 * 24px) / 4);
-  }
+    .features-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4f4fd;
+      padding: 24px 100px 24px 100px;
+      background-position: center;
+      background-size: cover;
+      border: 1px solid #8e8f99;
+      border-radius: 4px;
+      text-align: center;
+      margin-bottom: 8px;
+      height: 112px;
+    }
 
-  /*================portfolio===========*/
-  .portfolio-menu {
-    gap: 24px;
-    padding: none;
-  }
+    .features-title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      text-align: left;
+      letter-spacing: 0.02em;
+    }
 
-  .portfolio-item {
-    width: 360px;
-    height: 420px;
-    width: calc((100% - 2 * 24px) / 3);
-  }
+    .features-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.02em;
+      color: #434455;
+    }
 
-  .portfolio-item-box {
-    width: 360px;
-    height: 300px;
-  }
+    /*=======================team===============*/
+    .team-menu {
+      gap: 24px;
+    }
 
-  /*========footer=====================*/
-  .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    align-items: left;
-    text-align: none;
-  }
+    .team-item {
+      width: calc((100% - 3 * 24px) / 4);
+    }
 
-  .footer-container {
-    display: flex;
-    align-items: baseline;
-  }
+    /*================portfolio===========*/
+    .portfolio-menu {
+      gap: 24px;
+      padding: none;
+    }
 
-  .footer-logo-container {
-    margin-right: 120px;
-    margin-bottom: none;
-  }
+    .portfolio-item {
+      width: 360px;
+      height: 420px;
+      width: calc((100% - 2 * 24px) / 3);
+    }
 
-  .footer-text {
-    text-align: none;
-  }
+    .portfolio-item-box {
+      width: 360px;
+      height: 300px;
+    }
 
-  .footer-button-container {
-    margin-left: auto;
-    margin-left: 80px;
-    padding: none;
-    margin: none;
-  }
+    /*========footer=====================*/
 
-  .footer-button-input-form {
-    justify-content: right;
-    gap: 24px;
-    flex-wrap: none;
-    align-items: none;
-    margin: none;
+    /*================modal=====*/
   }
-
-  .footer-button {
-    margin: none;
-  }
-
-  /*================modal=====*/
 }
