@@ -75,6 +75,7 @@ ol {
   line-height: 0;
   cursor: pointer;
   background-color: transparent;
+  border: none;
 }
 
 .nav-list {
@@ -810,6 +811,7 @@ img {
 
 .modal {
   background-color: #fcfcfc;
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -956,12 +958,20 @@ img {
   margin-bottom: 24px;
 }
 
+.privecy-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
 .modal-checkbox {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
   border: none;
+  
 }
 
 .modal-checkbox:checked + .label-text-checkbox span {
@@ -990,11 +1000,13 @@ img {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
-}
-
-/* .modal-icon-checkbox {
   
-}  */
+} 
+
+.modal-icon-checkbox {
+  width: 16px;
+  height: 16px;
+} 
 
 .modal-checkbox-link {
   line-height: 1.33;
@@ -1002,12 +1014,7 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   margin-left: 2px;
-}
-
-.modal-mob-label {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
+  
 }
 
 
@@ -1170,14 +1177,13 @@ img {
 
   /*=======================team===============*/
 
-  .team {
-    width: 768px;
-  }
+  
 
   .team-menu {
     gap: 24px;
     row-gap: 64px;
-    
+    width: 552px;
+    margin: 0 auto;
   }
 
   /*================portfolio===========*/
@@ -1221,13 +1227,14 @@ img {
     text-align: left;
   }
 
-  /*======modal=====*/
+  /*===========modal-overlay=========*/
 
   .modal {
     width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
   }
+
 }
 
 /* =======media 1158px======================================*/
@@ -1334,12 +1341,13 @@ img {
 
     /*=======================team===============*/
     .team {
-      width: auto;
+    
     }
     
     .team-menu {
       gap: 24px;
       row-gap: none;
+      width: auto;
     }
 
     .team-item {
@@ -1372,6 +1380,7 @@ img {
 
     .footer-icon-container {
       margin-right: 80px;
+      padding: 0;
     }
   
 }
