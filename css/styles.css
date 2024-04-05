@@ -108,12 +108,6 @@ img {
   padding-bottom: 96px;
 }
 
-
-
-
-
-
-
 /*====navigation-modal-menu=====*/
 
 .modal-menu-overlay {
@@ -277,12 +271,6 @@ img {
   background-color: #404bbf;
 }
 
-
-
-
-
-
-
 /**========================HEADER==================**/
 
 .header {
@@ -330,7 +318,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #fff;
-  
+
   text-align: center;
   /* max-width: 496px; */
   max-width: 216px;
@@ -363,7 +351,6 @@ img {
 .header-btn:focus {
   background-color: #404bbf;
 }
-
 
 /**======================FEATURES==================**/
 
@@ -410,7 +397,7 @@ img {
 .features-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -424,7 +411,7 @@ img {
 .team-subtitle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,11;
+  line-height: 1, 11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -439,7 +426,6 @@ img {
   gap: 72px;
   justify-content: center;
   align-items: center;
- 
 }
 
 .team-item {
@@ -532,7 +518,6 @@ img {
   flex-wrap: wrap;
   /* gap: 24px; */
   row-gap: 48px;
-  
 }
 
 .portfolio-border {
@@ -646,7 +631,6 @@ img {
 }
 
 .footer-text {
-  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -811,7 +795,6 @@ img {
 
 .modal {
   background-color: #fcfcfc;
-  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -958,20 +941,12 @@ img {
   margin-bottom: 24px;
 }
 
-.privecy-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-}
-
 .modal-checkbox {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
   border: none;
-  
 }
 
 .modal-checkbox:checked + .label-text-checkbox span {
@@ -998,15 +973,15 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
   fill: transparent;
   margin-right: 8px;
-  
-} 
+}
 
 .modal-icon-checkbox {
   width: 16px;
   height: 16px;
-} 
+}
 
 .modal-checkbox-link {
   line-height: 1.33;
@@ -1014,9 +989,7 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   margin-left: 2px;
-  
 }
-
 
 .modal-button {
   display: block;
@@ -1121,7 +1094,6 @@ img {
     display: none;
   }
 
-
   /*=======================header=======*/
   .header {
     padding: 112px 0 112px;
@@ -1176,8 +1148,6 @@ img {
   }
 
   /*=======================team===============*/
-
-  
 
   .team-menu {
     gap: 24px;
@@ -1234,7 +1204,6 @@ img {
     min-height: 584px;
     padding: 72px 24px 24px 24px;
   }
-
 }
 
 /* =======media 1158px======================================*/
@@ -1289,98 +1258,95 @@ img {
         url(../images/dt2x/people-office-dt-2x.jpg);
     }
   }
-            
-    /*=====================feature ====================*/
-    
 
-    .section {
-      padding-top: 120px;
-      padding-bottom: 120px;
-      padding-left: 0;
-      padding-right: 0;
-    }
+  /*=====================feature ====================*/
 
-    .features-menu {
-      flex-wrap: none;
-    }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .features-item {
-      width: calc((100% - 3 * 24px) / 4);
-    }
+  .features-menu {
+    flex-wrap: none;
+  }
 
-    .features-icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #f4f4fd;
-      padding: 24px 0 24px 0;
-      background-position: center;
-      background-size: cover;
-      border: 1px solid #8e8f99;
-      border-radius: 4px;
-      text-align: center;
-      margin-bottom: 8px;
-      height: 112px;
-    }
+  .features-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
 
-    .features-title {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 1.2;
-      text-align: left;
-      letter-spacing: 0.02em;
-    }
+  .features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    padding: 24px 0 24px 0;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 8px;
+    height: 112px;
+  }
 
-    .features-text {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1,5;
-      letter-spacing: 0.02em;
-      color: #434455;
-    }
+  .features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 0.02em;
+  }
 
-    /*=======================team===============*/
-    .team {
-    
-    }
-    
-    .team-menu {
-      gap: 24px;
-      row-gap: none;
-      width: auto;
-    }
+  .features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1, 5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
 
-    .team-item {
-      width: 100%;
-      width: calc((100% - 3 * 24px) / 4);
-      height: 428px;
-    }
+  /*=======================team===============*/
+  .team {
+  }
 
-    /*================portfolio===========*/
+  .team-menu {
+    gap: 24px;
+    row-gap: none;
+    width: auto;
+  }
 
-    .portfolio-item {
-      width: calc((100% - 2 * 24px) / 3);
-    }
+  .team-item {
+    width: 100%;
+    width: calc((100% - 3 * 24px) / 4);
+    height: 428px;
+  }
 
-    .portfolio-item-box {
-      width: 360px;
-      height: 300px;
-    }
+  /*================portfolio===========*/
 
-    /*========footer=====================*/
+  .portfolio-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
 
-    .footer {
-      padding-top: 100px;
-      padding-bottom: 100px;
-    }
+  .portfolio-item-box {
+    width: 360px;
+    height: 300px;
+  }
 
-    .footer-logo-container {
-      margin-right: 120px;
-    }
+  /*========footer=====================*/
 
-    .footer-icon-container {
-      margin-right: 80px;
-      padding: 0;
-    }
-  
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-logo-container {
+    margin-right: 120px;
+  }
+
+  .footer-icon-container {
+    margin-right: 80px;
+    padding: 0;
+  }
 }
